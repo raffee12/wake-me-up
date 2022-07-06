@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80rem;
+  margin: auto;
+  width: 100%;
+}
+.container {
+  margin-bottom: 20px;
+}
+.header-section {
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 2rem;
+}
+.random {
+  margin-top: 30rem;
+}
+ul {
+  list-style: none;
+}
+section {
+  background-color: #4286f4;
+  padding: 3rem 2rem;
+  margin-top: 10px;
+}
+#Items_1 label {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+#Submit {
+  display: block;
+  width: 25%;
+  border-radius: 5px;
+}
+#Items_2 h1 {
+  margin-block: 20px;
+}
+#Items_2 .list-group-item {
+  padding: 10px 20px;
+  background-color: grey;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.bg-dark {
+  background-color: rgb(53, 18, 89);
+  color: #fff;
+}
+@media (max-width: 578px) {
+  .container {
+    max-width: 3000px;
+  }
+}
