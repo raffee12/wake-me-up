@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header h1 {
+  margin-top: 30px;
+  padding: 2rem;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  max-width: 80rem;
+  margin: auto;
+  /* border: 1px solid #333; */
+}
+
+.boxes .container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+/* .box-1 {
+  background-color: red;
+  padding: 1rem;
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+}
+.box-2 {
+  background-color: red;
+  padding: 1rem;
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+}
+.box-3 {
+  background-color: red;
+  padding: 1rem;
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+} */
+.box {
+  background-color: #3c1053;
+  color: #fff;
+  padding: 1rem;
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+}
+.box h1 {
+  margin-top: 30px;
+  text-align: center;
+  background: transparent;
+  color: #ad5389;
+  clip-path: text;
+}
+.box h2 {
+  margin-top: 50px;
+  border: 2px solid #800080;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background: transparent;
+  background: #800080; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc0cb,
+    #800080
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc0cb,
+    #800080
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* color: transparent;
+  background-clip: text; */
+}
+.box-3 {
+  margin-top: 50px;
+  border: 2px solid #800080;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background: transparent;
+  background: #800080; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc0cb,
+    #800080
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc0cb,
+    #800080
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* color: transparent;
+  background-clip: text; */
+}
+
+@media (max-width: 678px) {
+  .container {
+    flex-direction: column;
+  }
+}

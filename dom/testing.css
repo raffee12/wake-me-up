@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  line-height: 1.6;
+}
+.container {
+  max-width: 32rem;
+  margin: 100px auto;
+  padding: 3rem;
+  /* padding: 180px 250px; */
+
+  /* padding: 100px 200px; */
+  border: 1px solid #fff;
+  background: #373b44; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4286f4,
+    #373b44
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: block;
+  border-radius: 20px;
+}
+#the-header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 2rem;
+}
+button {
+  background-color: transparent;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  font-size: 32px;
+  margin-left: 150px;
+  padding: 1rem 2rem;
+}
+
+.content {
+  display: none;
+}
+.content.btn {
+  display: block;
+}
+@media (max-width: 678px) {
+  .container {
+    max-width: 25rem;
+  }
+  .btn {
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+}

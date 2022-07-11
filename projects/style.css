@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;1,600&family=Mochiy+Pop+P+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f4f4f4;
+  font-size: 1rem;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #f4f4f4;
+  object-fit: contain;
+}
+.container {
+  width: 550px;
+  padding: 3rem 5rem;
+
+  border: solid 2px #fff;
+}
+.header {
+  width: 80%;
+  padding: 5px;
+
+  margin: 20px auto;
+  font-size: 1.2rem;
+  border: solid 2px #fff;
+  color: #fff;
+  background-color: #262626;
+}
+.para {
+  padding: 1rem;
+  font-size: 25px;
+  background-color: #333;
+  border-radius: 10px;
+}
+.person {
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #f4f4f4;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+@media (max-width: 678px) {
+  .container {
+    max-width: 25rem;
+    padding: 10px;
+    margin-top: 80px;
+  }
+}

@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #20002c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cbb4d4,
+    #20002c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cbb4d4, #20002c);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.container {
+  max-width: 32rem;
+  margin: auto;
+  padding: 3rem 10rem;
+  border: 1px solid pink;
+}
+
+button {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 1px solid pink;
+  width: 100px;
+  margin: 10px;
+  font-size: 25px;
+}
+.div {
+  text-align: center;
+  font-size: 50px;
+}
+div {
+  text-align: center;
+  font-size: 50px;
+}

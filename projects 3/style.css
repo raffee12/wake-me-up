@@ -1,0 +1,59 @@
+* {
+  box-sizing: 0;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1595452767427-0905ad9b036d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cXVlc3Rpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.accordiam {
+  background-color: #fff;
+  padding: 30px;
+  width: 400px;
+  border-radius: 30px;
+}
+.accordiam .title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.accordiam .content .ques {
+  border-bottom: 1px solid #000;
+  font-size: 22px;
+  margin-bottom: 10px;
+  padding: 16px 0;
+  position: relative;
+}
+.accordiam .content .ques::after {
+  content: "+";
+  position: absolute;
+  right: -1px;
+  font-weight: bold;
+}
+
+.accordiam .content .ans {
+  font-size: 18px;
+  padding-top: 10px;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.accordiam .content.active .ans {
+  height: 150px;
+}
+.accordiam .content.active .ques {
+  font-size: 18px;
+  transition: all 0.5s;
+}
+.accordiam .content.active .ques::after {
+  content: "-";
+  font-weight: bold;
+  font-size: 30px;
+  transition: all 0.5s;
+}
